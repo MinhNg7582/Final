@@ -6087,6 +6087,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementSpeed: 6
+  bonusTime: 0
 --- !u!114 &6490018453036741485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6102,6 +6103,7 @@ MonoBehaviour:
   currentHealth: 0
   maxHealth: 7
   healthBar: {fileID: 6490018454069710409}
+  sr: {fileID: 0}
 --- !u!114 &6490018453036741484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6176,7 +6178,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaclesPrefab: {fileID: 7469583144496925870, guid: e7bd9351999029a409b33faee0b13564, type: 3}
-  timeBetweenSpawns: 1.5
+  timeBetweenSpawns: 4
   maxX: 12.5
   maxY: 4.5
   minX: 11.5
@@ -6482,7 +6484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaclesPrefab: {fileID: 8899711787733344409, guid: 8384f163cc1dff8438832d0571455ae3, type: 3}
-  timeBetweenSpawns: 4
+  timeBetweenSpawns: 2
   maxX: 11
   maxY: 4.7
   minX: 10
@@ -6788,7 +6790,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaclesPrefab: {fileID: 8901794011821765657, guid: 0daa856e039a2754e9c09c1e62689eb2, type: 3}
-  timeBetweenSpawns: 2
+  timeBetweenSpawns: 13
   maxX: 11
   maxY: 4.7
   minX: 10

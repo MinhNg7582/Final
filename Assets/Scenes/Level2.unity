@@ -204,7 +204,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &306201674
 PrefabInstance:
@@ -263,6 +263,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f666fcf7e622054180475df0098526c, type: 3}
+--- !u!1001 &1016952563
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6493966104367068801, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493966104367068801, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.022800028
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493966104367068801, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.07969999
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493966104367068801, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493966104367068801, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493966104367068801, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493966104367068801, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493966104367068801, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493966104367068801, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493966104367068801, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493966104367068801, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493966104367068803, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_Name
+      value: BloodOverlay
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ea5a78de1579f574fba45785782c7291, type: 3}
 --- !u!1001 &1311343481
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -329,7 +386,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2797710264230380926, guid: 3ee7d1701631cf44f9493f2aa5f6258d, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2797710264230380926, guid: 3ee7d1701631cf44f9493f2aa5f6258d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -383,6 +440,22 @@ PrefabInstance:
       propertyPath: sr
       value: 
       objectReference: {fileID: 6493966104367068802, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+    - target: {fileID: 6490018453730110537, guid: 3ee7d1701631cf44f9493f2aa5f6258d, type: 3}
+      propertyPath: Priority
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490018453730110537, guid: 3ee7d1701631cf44f9493f2aa5f6258d, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: ab6a92ee3bea3f34caa9aa378465db46, type: 3}
+    - target: {fileID: 6490018453730110543, guid: 3ee7d1701631cf44f9493f2aa5f6258d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490018453787529013, guid: 3ee7d1701631cf44f9493f2aa5f6258d, type: 3}
+      propertyPath: timeBetweenSpawns
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6490018453833779330, guid: 3ee7d1701631cf44f9493f2aa5f6258d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0

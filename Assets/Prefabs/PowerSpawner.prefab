@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   obstaclesPrefab: {fileID: 279712869780036536, guid: 00391897fa8c79f4eb593306788bceec, type: 3}
-  timeBetweenSpawns: 8
+  timeBetweenSpawns: 15
   maxX: 11
   maxY: 4.7
   minX: 10

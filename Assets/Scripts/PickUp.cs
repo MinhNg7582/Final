@@ -18,7 +18,7 @@ public class PickUp : MonoBehaviour
 
     private void Update()
     {
-        if (Scoring.totalScore >= 3)
+        if (Scoring.totalScore >= 10)
         {
             int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
             SceneManager.LoadScene(currentSceneIndex + 1);

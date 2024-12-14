@@ -442,6 +442,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LevelPack
       objectReference: {fileID: 0}
+    - target: {fileID: 6490018452738863015, guid: 3ee7d1701631cf44f9493f2aa5f6258d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6490018453036741456, guid: 3ee7d1701631cf44f9493f2aa5f6258d, type: 3}
       propertyPath: bonusTime
       value: 5
@@ -450,6 +454,14 @@ PrefabInstance:
       propertyPath: sr
       value: 
       objectReference: {fileID: 190206849}
+    - target: {fileID: 6490018453304933457, guid: 3ee7d1701631cf44f9493f2aa5f6258d, type: 3}
+      propertyPath: timeBetweenSpawns
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6490018453569830349, guid: 3ee7d1701631cf44f9493f2aa5f6258d, type: 3}
+      propertyPath: timeBetweenSpawns
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6490018453833779330, guid: 3ee7d1701631cf44f9493f2aa5f6258d, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -514,6 +526,10 @@ PrefabInstance:
     - target: {fileID: 6493966104367068803, guid: ea5a78de1579f574fba45785782c7291, type: 3}
       propertyPath: m_Name
       value: BloodOverlay
+      objectReference: {fileID: 0}
+    - target: {fileID: 6493966104367068803, guid: ea5a78de1579f574fba45785782c7291, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea5a78de1579f574fba45785782c7291, type: 3}
